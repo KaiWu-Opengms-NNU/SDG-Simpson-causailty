@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bf46d6d2-fb19-4842-98db-2dd682661cd9" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="F:/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="F:\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2RrQHRRv8O0fQ4CPMdaWVRw1CEA" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Year2022/sustainableDevelopmentPaper/coding/JavaProgram" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.opengms.wukai.pojo.Result.Temporal" />
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.GrangerMain">
+    <configuration name="GrangerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GrangerMain" />
+      <module name="SdgExperiment" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NetWorkAnalysis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NetWorkAnalysis" />
+      <module name="SdgExperiment" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Regressiontest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Regressiontest" />
+      <module name="SdgExperiment" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StaticsAnalysis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StaticsAnalysis" />
+      <module name="SdgExperiment" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DFSTest.convert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SdgExperiment" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DFSTest" />
+      <option name="METHOD_NAME" value="convert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GrangerMain" />
+        <item itemvalue="Application.StaticsAnalysis" />
+        <item itemvalue="JUnit.DFSTest.convert" />
+        <item itemvalue="Application.Regressiontest" />
+        <item itemvalue="Application.NetWorkAnalysis" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf46d6d2-fb19-4842-98db-2dd682661cd9" name="Default Changelist" comment="" />
+      <created>1688005631850</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1688005631850</updated>
+      <workItem from="1688005633680" duration="50224000" />
+      <workItem from="1688738144878" duration="1098000" />
+      <workItem from="1689000573666" duration="21907000" />
+      <workItem from="1689132378573" duration="7598000" />
+      <workItem from="1689149800797" duration="13481000" />
+      <workItem from="1689212143664" duration="279000" />
+      <workItem from="1689239760667" duration="8989000" />
+      <workItem from="1690618769044" duration="1799000" />
+      <workItem from="1690787273599" duration="67957000" />
+      <workItem from="1691326575268" duration="42324000" />
+      <workItem from="1691502390527" duration="6053000" />
+      <workItem from="1691509851954" duration="9216000" />
+      <workItem from="1691572973095" duration="4333000" />
+      <workItem from="1691593479731" duration="3307000" />
+      <workItem from="1692012929480" duration="1393000" />
+      <workItem from="1692021695385" duration="45847000" />
+      <workItem from="1692282607406" duration="5762000" />
+      <workItem from="1692296345838" duration="3645000" />
+      <workItem from="1692341954800" duration="11085000" />
+      <workItem from="1692537129277" duration="334000" />
+      <workItem from="1692541194395" duration="19573000" />
+      <workItem from="1693188767727" duration="55650000" />
+      <workItem from="1693578212313" duration="9212000" />
+      <workItem from="1693900260413" duration="34216000" />
+      <workItem from="1694346931747" duration="844000" />
+      <workItem from="1694348602970" duration="712000" />
+      <workItem from="1694356114449" duration="11672000" />
+      <workItem from="1694574123269" duration="35515000" />
+      <workItem from="1695002416541" duration="22195000" />
+      <workItem from="1695310980311" duration="780000" />
+      <workItem from="1695611668878" duration="4780000" />
+      <workItem from="1695782487699" duration="4193000" />
+      <workItem from="1696159755503" duration="71974000" />
+      <workItem from="1697391946680" duration="1558000" />
+      <workItem from="1697393539785" duration="262000" />
+      <workItem from="1697703155773" duration="789000" />
+      <workItem from="1697704245623" duration="26008000" />
+      <workItem from="1698112997621" duration="24768000" />
+      <workItem from="1698592017750" duration="8041000" />
+      <workItem from="1698602559317" duration="14514000" />
+      <workItem from="1698721680141" duration="39010000" />
+      <workItem from="1698944692217" duration="1105000" />
+      <workItem from="1698975758396" duration="24034000" />
+      <workItem from="1699081631967" duration="23577000" />
+      <workItem from="1699689276190" duration="24395000" />
+      <workItem from="1699964238398" duration="19119000" />
+      <workItem from="1700374656899" duration="13252000" />
+      <workItem from="1700444725693" duration="2774000" />
+      <workItem from="1700640230294" duration="7023000" />
+      <workItem from="1700703964847" duration="4852000" />
+      <workItem from="1700749730671" duration="8225000" />
+      <workItem from="1700814126677" duration="6465000" />
+      <workItem from="1701069858354" duration="9207000" />
+      <workItem from="1701414411057" duration="37443000" />
+      <workItem from="1702298675637" duration="6986000" />
+      <workItem from="1702629534910" duration="3902000" />
+      <workItem from="1704352139766" duration="12142000" />
+      <workItem from="1704781312281" duration="1977000" />
+      <workItem from="1705050281803" duration="13293000" />
+      <workItem from="1705245336837" duration="8225000" />
+      <workItem from="1706851535824" duration="6803000" />
+      <workItem from="1707394377440" duration="1316000" />
+      <workItem from="1708062490209" duration="6975000" />
+      <workItem from="1708156359511" duration="2000" />
+      <workItem from="1708236800347" duration="2664000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/PrioritizeAnalysis.java</url>
+          <line>112</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/NetWorkAnalysis.java</url>
+          <line>140</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/opengms/wukai/tool/OperateExcel.java</url>
+          <line>389</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Regressiontest.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/DFSTest.java</url>
+          <line>134</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/opengms/wukai/tool/SDGIndicatorTool.java</url>
+          <line>409</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/opengms/wukai/pojo/Result/NetWork/NetNode.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/StaticsAnalysis.java</url>
+          <line>676</line>
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/StaticsAnalysis.java</url>
+          <line>206</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/GrangerMain.java</url>
+          <line>231</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/GrangerMain.java</url>
+          <line>234</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="grangerResultGoals.get(12)" />
+        <watch expression="AggregationList.get(115)" />
+        <watch expression="NewIndicator" />
+        <watch expression="TempSameGoalList.get(100)" />
+        <watch expression="TempSameGoalList.get(100)" language="JAVA" />
+        <watch expression="WorldDifferenceLevel.get(0).SDGDegreeList" />
+        <watch expression="WorldDifferenceLevel.get(0).SDGDegreeList[0]" />
+        <watch expression="WorldDifferenceLevel.get(0).SDGDegreeList[1]" />
+        <watch expression="WorldDifferenceLevel.get(0).SDGDegreeList[2]" />
+        <watch expression="WorldDifferenceLevel.get(0).SDGDegreeList[3]" />
+        <watch expression="WorldDifferenceLevel.get(0).SDGDegreeList[4]" />
+        <watch expression="WorldDifferenceLevel.get(0).SDGDegreeList[5]" />
+        <watch expression="WorldDifferenceLevel.get(0).SDGDegreeList[6]" />
+        <watch expression="WorldDifferenceLevel.get(0).SDGDegreeList[7]" />
+        <watch expression="WorldDifferenceLevel.get(0).SDGDegreeList[8]" />
+        <watch expression="WorldDifferenceLevel.get(0).SDGDegreeList[9]" />
+        <watch expression="WorldDifferenceLevel.get(0).SDGDegreeList[10]" />
+        <watch expression="WorldDifferenceLevel.get(0).SDGDegreeList[11]" />
+        <watch expression="WorldDifferenceLevel.get(0).SDGDegreeList[12]" />
+        <watch expression="CodeDataX[22]" />
+        <watch expression="AnalysisResult.get(194)" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SdgExperiment$GrangerMain.ic" NAME="GrangerMain Coverage Results" MODIFIED="1689173433298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/SdgExperiment$StaticsAnalysis.ic" NAME="StaticsAnalysis Coverage Results" MODIFIED="1704713947588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

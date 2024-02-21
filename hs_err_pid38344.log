@@ -1,0 +1,156 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (malloc) failed to allocate 1048576 bytes for AllocateHeap
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   In 32 bit mode, the process size limit was hit
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Use 64 bit Java on a 64 bit OS
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (memory/allocation.inline.hpp:61), pid=38344, tid=0x00000000000042f0
+#
+# JRE version:  (8.0_151-b12) (build )
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (25.151-b12 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0000000002b94000):  JavaThread "Unknown thread" [_thread_in_vm, id=17136, stack(0x0000000002920000,0x0000000002a20000)]
+
+Stack: [0x0000000002920000,0x0000000002a20000]
+[error occurred during error reporting (printing stack bounds), id 0xc0000005]
+
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x0000000002b94000 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=17136, stack(0x0000000002920000,0x0000000002a20000)]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Heap:
+ PSYoungGen      total 75776K, used 1300K [0x000000076b580000, 0x0000000770a00000, 0x00000007c0000000)
+  eden space 65024K, 2% used [0x000000076b580000,0x000000076b6c51f8,0x000000076f500000)
+  from space 10752K, 0% used [0x000000076ff80000,0x000000076ff80000,0x0000000770a00000)
+  to   space 10752K, 0% used [0x000000076f500000,0x000000076f500000,0x000000076ff80000)
+ ParOldGen       total 173568K, used 0K [0x00000006c2000000, 0x00000006cc980000, 0x000000076b580000)
+  object space 173568K, 0% used [0x00000006c2000000,0x00000006c2000000,0x00000006cc980000)
+ Metaspace       used 770K, capacity 4480K, committed 4480K, reserved 1056768K
+  class space    used 75K, capacity 384K, committed 384K, reserved 1048576K
+
+Card table byte_map: [0x0000000012050000,0x0000000012850000] byte_map_base: 0x000000000ea40000
+
+Marking Bits: (ParMarkBitMap*) 0x00000000775ad850
+ Begin Bits: [0x00000000137a0000, 0x0000000017720000)
+ End Bits:   [0x0000000017720000, 0x000000001b6a0000)
+
+Polling page: 0x0000000000680000
+
+CodeCache: size=245760Kb used=328Kb max_used=328Kb free=245431Kb
+ bounds [0x0000000002c90000, 0x0000000002f00000, 0x0000000011c90000]
+ total_blobs=58 nmethods=0 adapters=38
+ compilation: enabled
+
+Compilation events (0 events):
+No events
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (10 events):
+Event: 0.323 loading class java/lang/Short
+Event: 0.323 loading class java/lang/Short done
+Event: 0.323 loading class java/lang/Integer
+Event: 0.323 loading class java/lang/Integer done
+Event: 0.323 loading class java/lang/Long
+Event: 0.323 loading class java/lang/Long done
+Event: 0.324 loading class java/lang/NullPointerException
+Event: 0.324 loading class java/lang/NullPointerException done
+Event: 0.324 loading class java/lang/ArithmeticException
+Event: 0.324 loading class java/lang/ArithmeticException done
+
+
+Dynamic libraries:
+0x00007ff7c4650000 - 0x00007ff7c4687000 	F:\java\bin\java.exe
+0x00007ffb0d8b0000 - 0x00007ffb0daa8000 	C:\WINDOWS\SYSTEM32\ntdll.dll
+0x00007ffb0c550000 - 0x00007ffb0c60f000 	C:\WINDOWS\System32\KERNEL32.DLL
+0x00007ffb0b3d0000 - 0x00007ffb0b6c6000 	C:\WINDOWS\System32\KERNELBASE.dll
+0x00007ffb0c4a0000 - 0x00007ffb0c54f000 	C:\WINDOWS\System32\ADVAPI32.dll
+0x00007ffb0c400000 - 0x00007ffb0c49e000 	C:\WINDOWS\System32\msvcrt.dll
+0x00007ffb0d610000 - 0x00007ffb0d6ac000 	C:\WINDOWS\System32\sechost.dll
+0x00007ffb0bf20000 - 0x00007ffb0c046000 	C:\WINDOWS\System32\RPCRT4.dll
+0x00007ffb0d2e0000 - 0x00007ffb0d47d000 	C:\WINDOWS\System32\USER32.dll
+0x00007ffb0b030000 - 0x00007ffb0b052000 	C:\WINDOWS\System32\win32u.dll
+0x00007ffb0bef0000 - 0x00007ffb0bf1c000 	C:\WINDOWS\System32\GDI32.dll
+0x00007ffb0b060000 - 0x00007ffb0b175000 	C:\WINDOWS\System32\gdi32full.dll
+0x00007ffb0af90000 - 0x00007ffb0b02d000 	C:\WINDOWS\System32\msvcp_win.dll
+0x00007ffb0b180000 - 0x00007ffb0b280000 	C:\WINDOWS\System32\ucrtbase.dll
+0x00007ffaf7f60000 - 0x00007ffaf81fa000 	C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1110_none_60b5254171f9507e\COMCTL32.dll
+0x00007ffb0d240000 - 0x00007ffb0d270000 	C:\WINDOWS\System32\IMM32.DLL
+0x0000000077a00000 - 0x0000000077a0c000 	G:\360\360Safe\safemon\SafeWrapper.dll
+0x00007ffaf8d80000 - 0x00007ffaf8e2c000 	G:\360\360Safe\safemon\libzdtp64.dll
+0x00007ffb0ca90000 - 0x00007ffb0d1d4000 	C:\WINDOWS\System32\SHELL32.dll
+0x00007ffb0d1e0000 - 0x00007ffb0d235000 	C:\WINDOWS\System32\SHLWAPI.dll
+0x00007ffb0ab40000 - 0x00007ffb0ab4a000 	C:\WINDOWS\SYSTEM32\VERSION.dll
+0x0000000077630000 - 0x0000000077702000 	F:\java\jre\bin\msvcr100.dll
+0x0000000076d90000 - 0x000000007762d000 	F:\java\jre\bin\server\jvm.dll
+0x00007ffb0d860000 - 0x00007ffb0d868000 	C:\WINDOWS\System32\PSAPI.DLL
+0x00007ffb07580000 - 0x00007ffb07589000 	C:\WINDOWS\SYSTEM32\WSOCK32.dll
+0x00007ffaf85c0000 - 0x00007ffaf85e7000 	C:\WINDOWS\SYSTEM32\WINMM.dll
+0x00007ffb0d270000 - 0x00007ffb0d2db000 	C:\WINDOWS\System32\WS2_32.dll
+0x00000000779a0000 - 0x00000000779af000 	F:\java\jre\bin\verify.dll
+0x0000000077970000 - 0x0000000077999000 	F:\java\jre\bin\java.dll
+0x0000000076b40000 - 0x0000000076b63000 	F:\java\jre\bin\instrument.dll
+0x0000000077950000 - 0x0000000077966000 	F:\java\jre\bin\zip.dll
+
+VM Arguments:
+jvm_args: -javaagent:F:\JetBrain\IntelliJ IDEA 2019.2.4\lib\idea_rt.jar=38293:F:\JetBrain\IntelliJ IDEA 2019.2.4\bin -Dfile.encoding=UTF-8 
+java_command: StaticsAnalysis
+java_class_path (initial): F:\java\jre\lib\charsets.jar;F:\java\jre\lib\deploy.jar;F:\java\jre\lib\ext\access-bridge-64.jar;F:\java\jre\lib\ext\cldrdata.jar;F:\java\jre\lib\ext\dnsns.jar;F:\java\jre\lib\ext\jaccess.jar;F:\java\jre\lib\ext\jfxrt.jar;F:\java\jre\lib\ext\localedata.jar;F:\java\jre\lib\ext\nashorn.jar;F:\java\jre\lib\ext\sunec.jar;F:\java\jre\lib\ext\sunjce_provider.jar;F:\java\jre\lib\ext\sunmscapi.jar;F:\java\jre\lib\ext\sunpkcs11.jar;F:\java\jre\lib\ext\zipfs.jar;F:\java\jre\lib\javaws.jar;F:\java\jre\lib\jce.jar;F:\java\jre\lib\jfr.jar;F:\java\jre\lib\jfxswt.jar;F:\java\jre\lib\jsse.jar;F:\java\jre\lib\management-agent.jar;F:\java\jre\lib\plugin.jar;F:\java\jre\lib\resources.jar;F:\java\jre\lib\rt.jar;G:\WukaiBag\Year2023\sustainableofpaper2023\coding\JavaProgramChangeDataAndRegress\target\test-classes;G:\WukaiBag\Year2023\sustainableofpaper2023\coding\JavaProgramChangeDataAndRegress\target\classes;F:\apache-maven-3.6.3\maven_repository\org\apache\poi\poi\3.9\poi-3.9.jar;F:\apache-maven-3.6.3\maven_repository\commons-codec\commons-codec\1.5\commons-codec-1.5.jar;F:\apache-maven-3.6.3\maven_repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;F:\apache-maven-3.6.3\maven_repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;F:\apache-maven-3.6.3\maven_repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;F:\apache-maven-3.6.3\maven_repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;F:\apache-maven-3.6.3\maven_repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;F:\apache-maven-3.6.3\maven_repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;F:\apache-maven-3.6.3\maven_repository\com\monitorjbl\xlsx-streamer\1.2.0\xlsx-streamer-1.2.0.jar;F:\apache-maven-3.6.3\maven_repository\org\apache\poi\ooxml-schemas\1.3\ooxml-schemas-1.3.jar;F:\apache-maven-3.6.3\maven_repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;F:\apache-maven-3.6.3\maven_repository\com\fasterxml\jackson\core\jackson-databind\2.8.8\jackson-databind-2.
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=F:\java
+CLASSPATH=.;F:\java\lib\dt.jar;F:\java\lib\tools.jar;
+PATH=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;F:\mysql-5.7.19\bin;F:\SPSS\JRE\bin;C:\Program Files\dotnet\;F:\git\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\MinGW\bin;F:\python\Scripts\;F:\python\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Roaming\npm;F:\pycharm\PyCharm Community Edition 2020.2.2\bin;;F:\release-1900-x64-gdal-2-4-3-mapserver-7-4-2\bin;F:\release-1900-x64-gdal-2-4-3-mapserver-7-4-2\bin\gdal\csharp;F:\release-1900-x64-gdal-2-4-3-mapserver-7-4-2\bin\gdal\java;;F:\apache-maven-3.6.3\bin;F:\vscode\Microsoft VS Code\bin;F:\nodeJS;C:\Users\Administrator\.dotnet\tools
+USERNAME=Administrator
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 10.0 , 64 bit Build 19041 (10.0.19041.2913)
+
+CPU:total 12 (initial active 12) (6 cores per cpu, 2 threads per core) family 6 model 158 stepping 10, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, avx2, aes, clmul, erms, rtm, 3dnowpref, lzcnt, ht, tsc, tscinvbit, bmi1, bmi2, adx
+
+Memory: 4k page, physical 16645980k(4897188k free), swap 50855896k(96292k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (25.151-b12) for windows-amd64 JRE (1.8.0_151-b12), built on Sep  5 2017 19:33:46 by "java_re" with MS VC++ 10.0 (VS2010)
+
+time: Sat Jun 03 14:11:56 2023
+elapsed time: 0 seconds (0d 0h 0m 0s)
+
